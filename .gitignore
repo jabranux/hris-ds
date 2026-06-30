@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+.vitepress/cache
+.vitepress/dist
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.vscode/
+.idea/
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+
+# Claude Code (local IDE config)
+.claude/
